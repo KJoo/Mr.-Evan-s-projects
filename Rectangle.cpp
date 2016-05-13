@@ -4,13 +4,13 @@
 /* Setter method which sets the length to len */
 void Rectangle::set_length(int len)
 {
-	return this->length = len;
+	return this->length = len;	// This method returns void, yet here you are returning non void. This is an error
 }
 
 /* Setter method which sets the width to wid */
 void Rectangle::set_width(int wid)
 {
-	return this->width = wid;
+	return this->width = wid;	// This method returns void, yet here you are returning non void. This is an error
 }
 
 /* Getter method which returns the length */
